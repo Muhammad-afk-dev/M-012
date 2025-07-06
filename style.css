@@ -20,6 +20,12 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: left;
+    transition: transform 0.3s , box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card p {
